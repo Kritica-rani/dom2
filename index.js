@@ -32,9 +32,3 @@ function stopAlarm() {
   clearTimeout(alarmInterval);
   alarmSound.pause();
 }
-
-// console.log("hello world");
-// setTimeout(() => {
-//   console.log("hii, inside time out");
-// }, 5000);
-// console.log("end");
