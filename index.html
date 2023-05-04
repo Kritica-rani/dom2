@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      input {
+        padding: 10px;
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      button {
+        padding: 10px;
+        font-size: 20px;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ALARM CLOCK</h1>
+    <p>Enter the time for alrm in (24-hr-format)</p>
+    <input type="text" id="alarmTime" placeholder="00:00" />
+    <button onclick="setAlarm()">set Alarm</button>
+    <button onclick="stopAlarm()">Stop Alarm</button>
+    <audio id="alarmSound" src="./alarm-clock-short-6402.mp3"></audio>
+    <script src="./index.js"></script>
+  </body>
+</html>
